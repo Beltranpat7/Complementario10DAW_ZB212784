@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#fullpage {
+    display: flex;
+    flex-direction: row;
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acordeon-img {
+    max-width: 80%; 
+    max-height: 80vh; 
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    cursor: pointer; 
+    transition: transform 0.3s ease-in-out;  
+}
+
+.acordeon-img:hover {
+    transform: scale(1.1); 
+}
